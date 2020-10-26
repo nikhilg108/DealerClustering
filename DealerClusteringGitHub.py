@@ -19,8 +19,6 @@ sns.set()
 
 print('Packages imported succesfully')
 
-SDealerFilePath="Enter Your file path here"
-
 # 1.1 Import Data
 dfDealerDataImported = pd.read_csv('DealerFilepath\DealerData.csv')
 dfForecastDataImported = pd.read_csv('DealerFilepath\Forecast.csv')
